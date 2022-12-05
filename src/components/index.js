@@ -1,4 +1,8 @@
-// import { AiOutlineSearch, AiFillHome } from 'react-icons/ai'
+import { AiOutlineSearch, AiFillHome } from 'react-icons/ai'
+import { RiMessengerLine } from "react-icons/ri"
+import { BsPlusSquare } from "react-icons/bs"
+import { FiHeart } from "react-icons/fi"
+import { MdOutlineExplore } from "react-icons/md"
 
 export function Header() {
     return (
@@ -8,11 +12,17 @@ export function Header() {
                 <img src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png" />
 
                 <div className="input-fake">
-                    icon
+                    <AiOutlineSearch />
                     <input />
                 </div>
 
-                <div>icons</div>
+                <div>
+                    <AiFillHome />
+                    <RiMessengerLine />
+                    <BsPlusSquare />
+                    <MdOutlineExplore />
+                    <FiHeart />
+                </div>
 
             </div>
         </header>
