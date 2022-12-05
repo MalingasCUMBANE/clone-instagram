@@ -16,10 +16,14 @@ export function Header() {
                 <img src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png" />
 
                 <div className="input-fake">
-                    <AiOutlineSearch />
+
+                    <IconContext.Provider value={{ size: '26px' }}>
+                        <AiOutlineSearch />
+                    </IconContext.Provider>
+
                     <input />
                 </div>
-                <div>
+                <div className='menu-icons'>
                     <IconContext.Provider value={{ size: '26px' }}>
                         <AiFillHome />
                         <RiMessengerLine />
@@ -32,5 +36,4 @@ export function Header() {
             </div>
         </header>
     )
-
 }
