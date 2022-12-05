@@ -1,4 +1,4 @@
-// import { AiOutlineSearch } from 'react-icons/ai'
+// import { AiOutlineSearch, AiFillHome } from 'react-icons/ai'
 
 export function Header() {
     return (
