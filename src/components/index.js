@@ -4,8 +4,11 @@ import { BsPlusSquare } from "react-icons/bs";
 import { FiHeart } from "react-icons/fi";
 import { MdOutlineExplore } from "react-icons/md";
 import './../components/Header/style.css';
+import { IconContext } from 'react-icons';
+
 
 export function Header() {
+
     return (
         <header className="header">
             <div className="container">
@@ -17,13 +20,17 @@ export function Header() {
                     <input />
                 </div>
                 <div>
-                    <AiFillHome />
-                    <RiMessengerLine />
-                    <BsPlusSquare />
-                    <MdOutlineExplore />
-                    <FiHeart />
+                    <IconContext.Provider value={{ size: '26px' }}>
+                        <AiFillHome />
+                        <RiMessengerLine />
+                        <BsPlusSquare />
+                        <MdOutlineExplore />
+                        <FiHeart />
+                    </IconContext.Provider>
+
                 </div>
             </div>
         </header>
     )
+
 }
