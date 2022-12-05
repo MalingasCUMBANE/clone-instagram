@@ -24,11 +24,26 @@ export function Header() {
                 </div>
                 <div className='menu-icons'>
                     <IconContext.Provider value={{ size: '26px' }}>
-                        <AiFillHome />
-                        <RiMessengerLine />
-                        <BsPlusSquare />
-                        <MdOutlineExplore />
-                        <FiHeart />
+                        <div>
+                            <AiFillHome />
+                        </div>
+
+                        <div>
+                            <RiMessengerLine />
+                        </div>
+
+                        <div>
+                            <BsPlusSquare />
+                        </div>
+
+                        <div>
+                            <MdOutlineExplore />
+                        </div>
+
+                        <div>
+                            <FiHeart />
+                        </div>
+
                     </IconContext.Provider>
                     <img className='img-user' src='https://github.com/MalingasCUMBANE.png' />
                 </div>
