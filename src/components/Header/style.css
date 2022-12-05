@@ -41,6 +41,7 @@
 }
 
 .menu-icons {
+    display: flex;
     gap: 16px;
 }
 
