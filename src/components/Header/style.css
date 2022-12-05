@@ -43,7 +43,9 @@
 .menu-icons {
     display: flex;
     gap: 16px;
+    cursor: pointer;
 }
+
 
 .menu-icons .img-user {
     width: 126px;
