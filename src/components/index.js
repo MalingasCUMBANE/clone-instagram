@@ -1,3 +1,5 @@
+// import { AiOutlineSearch } from 'react-icons/ai'
+
 export function Header() {
     return (
         <header className="header">
