@@ -17,11 +17,11 @@ export function Header() {
 
                 <div className="input-fake">
 
-                    <IconContext.Provider value={{ size: '26px' }}>
+                    <IconContext.Provider value={{ color: '#8e8e8e' }}>
                         <AiOutlineSearch />
                     </IconContext.Provider>
 
-                    <input />
+                    <input placeholder='pesquisar' />
                 </div>
                 <div className='menu-icons'>
                     <IconContext.Provider value={{ size: '26px' }}>
