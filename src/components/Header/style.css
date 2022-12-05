@@ -41,5 +41,11 @@
 }
 
 .menu-icons {
-     
+    gap: 16px;
+}
+
+.menu-icons .img-user {
+    width: 126px;
+    height: 26px;
+    border-radius: 100%;
 }
