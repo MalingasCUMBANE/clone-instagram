@@ -17,5 +17,18 @@
 }
 
 .header .container img {
-    width: 120px;
+    width: 110px;
+    cursor: pointer;
 }
+
+.input-fake {
+    background: var(--background-main);
+    border-radius: 3px;
+
+    border: 1px solid var(--border);
+
+    display: flex;
+    align-items: center;
+
+}
+
