@@ -31,7 +31,7 @@ export function Header() {
                         <MdOutlineExplore />
                         <FiHeart />
                     </IconContext.Provider>
-
+                    <img className='img-user' src='https://github.com/MalingasCUMBANE.png' />
                 </div>
             </div>
         </header>
