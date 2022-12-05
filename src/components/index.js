@@ -1,8 +1,9 @@
-import { AiOutlineSearch, AiFillHome } from 'react-icons/ai'
-import { RiMessengerLine } from "react-icons/ri"
-import { BsPlusSquare } from "react-icons/bs"
-import { FiHeart } from "react-icons/fi"
-import { MdOutlineExplore } from "react-icons/md"
+import { AiOutlineSearch, AiFillHome } from 'react-icons/ai';
+import { RiMessengerLine } from "react-icons/ri";
+import { BsPlusSquare } from "react-icons/bs";
+import { FiHeart } from "react-icons/fi";
+import { MdOutlineExplore } from "react-icons/md";
+import './../components/Header/style.css';
 
 export function Header() {
     return (
