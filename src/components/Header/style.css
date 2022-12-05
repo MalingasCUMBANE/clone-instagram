@@ -2,3 +2,7 @@
     background: var(--background);
     border-bottom: 1px solid var(--border);
 }
+
+.header .container {
+    display: flex;
+}
