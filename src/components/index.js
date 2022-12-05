@@ -23,7 +23,6 @@ export function Header() {
                     <MdOutlineExplore />
                     <FiHeart />
                 </div>
-
             </div>
         </header>
     )
