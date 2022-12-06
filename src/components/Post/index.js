@@ -4,6 +4,7 @@ import { BsChat } from "react-icons/bs"
 import { FiSend } from "react-icons/fi";
 import { IoMdHeartEmpty } from "react-icons/io"
 import { BsBookmark } from "react-icons/bs";
+import { IconContext } from "react-icons";
 
 
 export function Post() {
@@ -22,16 +23,32 @@ export function Post() {
             </div>
 
             <div className="footer-post">
-                <section className="engagement-post">
+                <IconContext.Provider value={{ size: "30px" }}>
+                    <section className="engagement-post">
 
-                    <div className="icons-1">
-                        <div className="icon"><IoMdHeartEmpty /></div>
-                        <div className="icon"><BsChat /></div>
-                        <div className="icon"><FiSend /></div>
-                    </div>
-                    <div className="icon"><BsBookmark /></div>
 
+
+                        <div className="icons-1">
+                            <div className="icon"><IoMdHeartEmpty /></div>
+                            <div className="icon"><BsChat /></div>
+                            <div className="icon"><FiSend /></div>
+                        </div>
+                        <div className="icon"><BsBookmark /></div>
+
+                    </section>
+                </IconContext.Provider>
+
+                <section className="like">
+                    <span>61 curtidas</span>
                 </section>
+                <div className="legend">
+                    <p>
+                        <span>Malingas</span> Lorem ipsun tudo tudo tudo tudoooooooooo
+                    </p>
+                </div>
+                <div className="time-post">
+                    <time>Há 30 minutos</time>
+                </div>
             </div>
         </>
     )
