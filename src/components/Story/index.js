@@ -4,7 +4,7 @@ export function Story() {
         <div className="container">
             <div className="user-elements">
                 <div>
-                    <img />
+                    <img className="image-user-story" src="https://github.com/MalingasCUMBANE.png"/>
                 </div>
                 <span>malingas</span>
             </div>
