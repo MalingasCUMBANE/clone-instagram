@@ -26,3 +26,14 @@ header img {
 .footer-post {
     padding: 10px 15px
 }
+
+.engagement-post {
+    display: flex;
+    gap: 16px;
+
+}
+
+.engagement-post .icons-1 {
+    display: flex;
+    gap: 16px;
+}
