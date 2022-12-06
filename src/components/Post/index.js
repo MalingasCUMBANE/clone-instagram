@@ -24,7 +24,7 @@ export function Post() {
             <div className="footer-post">
                 <section className="engagement-post">
 
-                    <div>
+                    <div className="icons-1">
                         <div className="icon"><IoMdHeartEmpty /></div>
                         <div className="icon"><BsChat /></div>
                         <div className="icon"><FiSend /></div>

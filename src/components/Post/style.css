@@ -1,8 +1,8 @@
 header {
     display: flex;
     align-items: center;
-    justify-content: center;
-    padding: ;
+    justify-content: space-between;
+    padding: 10px 15px;
 }
 
 header img {
@@ -21,4 +21,8 @@ header img {
     width: 100%;
     object-fit: cover;
 
+}
+
+.footer-post {
+    padding: 10px 15px
 }
