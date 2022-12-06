@@ -2,9 +2,19 @@
     display: grid;
     grid-template-areas: "firstColumn secondColumn";
     grid-template-columns: 614px 293px;
+    max-width: 957px;
+    margin: 0 auto;
+
+    grid-gap: 50px ;
+
 }
 
 .box {
-    background: var(--background);
+    /* background: var(--background); */
+    background-color: red ;
     border: 1px solid var(--border);
+}
+
+.suggestionbox {
+    background-color: blue;
 }

@@ -8,7 +8,7 @@ export function Layout() {
                     <div className="box">
                         Storys
                     </div>
-                    <div className="post">
+                    <div className="box">
                         Post
                     </div>
                 </div>
