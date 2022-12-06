@@ -1,9 +1,7 @@
 import "./style.css";
-import { FiMoreHorizontal } from "react-icons/fi"
-import { BsChat } from "react-icons/bs"
-import { FiSend } from "react-icons/fi";
+import { FiMoreHorizontal, FiSend } from "react-icons/fi"
+import { BsChat, BsEmojiSmile, BsBookmark } from "react-icons/bs"
 import { IoMdHeartEmpty } from "react-icons/io"
-import { BsBookmark } from "react-icons/bs";
 import { IconContext } from "react-icons";
 
 
@@ -48,6 +46,20 @@ export function Post() {
                 </div>
                 <div className="time-post">
                     <time>Há 30 minutos</time>
+                </div>
+                <div className="comment">
+                    <div className="fake-comment">
+                        <IconContext.Provider value={{ size: "25px" }}>
+                            <div className="icon">
+                                <BsEmojiSmile />
+                            </div>
+
+                        </IconContext.Provider>
+                        <input placeholder="Adicione um comentário..." />
+
+                    </div>
+                    <button>Publicar</button>
+
                 </div>
             </div>
         </>

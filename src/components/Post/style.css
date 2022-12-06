@@ -66,3 +66,27 @@ header img {
     font-size: 11px;
     color: grey
 }
+
+.comment {
+    border-top: 1px solid var(--border-secondary);
+    margin-top: 8px;
+    display: flex;
+}
+
+.fake-comment {
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    gap: 16px;
+
+}
+
+.fake-comment input {
+    font-size: 16px;
+}
+
+.comment button {
+    columns: var(--quartary);
+    cursor: pointer;
+}
