@@ -1,5 +1,6 @@
 import { Post } from "../Post"
 import { Story } from "../Story"
+import { Suggestion } from "../Suggestion"
 import "./style.css"
 
 export function Layout() {
@@ -10,16 +11,17 @@ export function Layout() {
                     <div className="box">
                         <Story />
                     </div>
-                    <div className="box">
+                    <div className="box" style={{ margin: "30px 0" }}>
                         <Post />
                     </div>
                 </div>
-                <div className="suggestionbox" style={{ gridArea: "secondColumn" }}>
-                    Sugestão
+                <div style={{ gridArea: "secondColumn" }}>
+                    <div className="suggestionbox">
+                        <Suggestion />
+                    </div>
                 </div>
             </div>
 
         </>
     )
 }
-// starting marathon    

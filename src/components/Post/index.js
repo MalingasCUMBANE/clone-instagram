@@ -8,9 +8,9 @@ import { IconContext } from "react-icons";
 export function Post() {
     return (
         <>
-            <header>
+            <header className="header-post">
                 <div className="infos-post">
-                    <img src="https://github.com/MalingasCUMBANE.png" />
+                    <img className="img-header-post" src="https://github.com/MalingasCUMBANE.png" />
                     <p>Malingas Cumbane</p>
                 </div>
                 <FiMoreHorizontal />

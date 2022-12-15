@@ -3,9 +3,9 @@
     grid-template-areas: "firstColumn secondColumn";
     grid-template-columns: 614px 293px;
     max-width: 957px;
-    margin: 30px auto;
+    margin: 100px auto;
 
-    grid-gap: 50px;
+    grid-gap: 35px;
 
 }
 
@@ -15,6 +15,7 @@
 }
 
 .suggestionbox {
-    background-color: blue;
+    position: fixed;
+    max-width: 293px;
 }
 

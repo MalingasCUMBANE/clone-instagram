@@ -4,7 +4,7 @@ import { BsPlusSquare } from "react-icons/bs";
 import { FiHeart } from "react-icons/fi";
 import { MdOutlineExplore } from "react-icons/md";
 import { IconContext } from 'react-icons';
-import './../components/Header/style.css';
+import './style.css';
 
 export function Header() {
 
