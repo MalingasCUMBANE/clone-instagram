@@ -1,13 +1,30 @@
+import { useEffect, useState } from "react";
 import "./style.css"
 export function Story() {
+
+    const [story, setStoey] = useState([]);
+
+    useEffect(() => {
+        fetch('https://api.github.com/users/MalingasCUMBANE/followers').then((response) => {
+            return response.json()
+        }).then((result) => setStoey(result)).catch((error) => {
+            throw new Error(error)
+        })
+    }, [])
+
     return (
         <div className="container">
-            <div className="user-elements">
-                <div>
-                    <img className="image-user-story" src="https://github.com/MalingasCUMBANE.png"/>
+            {story.map((item, key) => (
+
+                <div className="user-elements" key={key}>
+                    <div>
+                        <img className="image-user-story" src={`https://github.com/${item.login}.png`} />
+                    </div>
+                    <span>{item.login}</span>
                 </div>
-                <span>malingas</span>
-            </div>
+            ))}
         </div>
     )
 }
+
+// https://api.github.com/users/MalingasCUMBANE/repos

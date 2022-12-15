@@ -22,7 +22,7 @@ export function Suggestion() {
         <div className="container-suggestion">
             
             <div className="header-suggestion">
-                <img src="https://github.com/MalingasCUMBANE" />
+                <img src="https://github.com/MalingasCUMBANE.png" />
 
                 <div className="user-infos-suggestion">
                     <div className="infos">
