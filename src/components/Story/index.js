@@ -26,5 +26,3 @@ export function Story() {
         </div>
     )
 }
-
-// https://api.github.com/users/MalingasCUMBANE/repos
